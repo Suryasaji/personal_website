@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+   <title>Surya Saji - Portfolio</title>
+</head>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#home" class="nav__logo">Surya Saji</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+               <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+               <li class="nav__item"><a href="#certifications-achievements" class="nav__link">Cerifications & Achievements</a></li>
+
+               <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+         </div>
+
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__content">
+               <h1 class="home__title">Hello, I'm <span>Surya Saji</span></h1>
+               <h3 class="home__subtitle">Engineering Student</h3>
+               <a href="#contact" class="button">Let's Talk</a>
+            </div>
+
+            <div class="home__img">
+               <img src="assets/image/img1.jpeg" alt="Surya Saji">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__img">
+               <img src="assets/image/img2.jpeg" alt="About Me">
+            </div>
+
+            <div class="about__data">
+               <h2 class="section__title">About Me</h2>
+               <p class="about__description">I am Surya Saji, a motivated computer science engineering student with strong problem-solving skills and a passion for innovation. Seeking opportunities to apply my knowledge, grow my skills, and contribute to dynamic teams.</p>
+               <a href="#contact" class="button">Contact Me</a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+         <h2 class="section__title">My Skills</h2>
+         <div class="skills__container container grid">
+            <div class="skills__content">
+               <h3 class="skills__title">Technical Skills</h3>
+               <ul class="skills__list">
+                  <li>
+                     <span>Python</span>
+                     <div class="skills__rating">
+                        <div class="skills__progress" style="width: 90%;"></div>
+                     </div>
+                  </li>
+                  <li>
+                     <span>C</span>
+                     <div class="skills__rating">
+                        <div class="skills__progress" style="width: 85%;"></div>
+                     </div>
+                  </li>
+                  <li>
+                     <span>Java</span>
+                     <div class="skills__rating">
+                        <div class="skills__progress" style="width: 80%;"></div>
+                     </div>
+                  </li>
+                  <li>
+                     <span>Flutter</span>
+                     <div class="skills__rating">
+                        <div class="skills__progress" style="width: 75%;"></div>
+                     </div>
+                  </li>
+                  <li>
+                     <span>HTML & CSS</span>
+                     <div class="skills__rating">
+                        <div class="skills__progress" style="width: 70%;"></div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+      
+            
+         </div>
+      </section>
+      
+      <style>
+         .skills__list {
+            list-style: none;
+            padding: 0;
+         }
+         .skills__list li {
+            margin-bottom: 15px;
+         }
+         .skills__rating {
+            background: #e0e0e0;
+            border-radius: 5px;
+            height: 10px;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 5px;
+         }
+         .skills__progress {
+            background: #4caf50;
+            height: 10px;
+            border-radius: 5px;
+         }
+      </style>
+      
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+         <h2 class="section__title">My Projects</h2>
+         <div class="projects__container">
+             <!-- HomeConnect Project -->
+             <div class="projects__card">
+                 <img src="assets/image/img3.png" alt="HomeConnect" class="projects__img">
+                 <h3 class="projects__title">HomeConnect</h3>
+                 <p class="projects__description">
+                     A mobile app that helps users find and book PGs/hostels while providing management tools for property owners.
+                 </p>
+                 <a href="https://github.com/Suryasaji/homeconnect" target="_blank" class="projects__button">View on GitHub</a>
+             </div>
+     
+             <!-- Personal Portfolio Project -->
+             <div class="projects__card">
+                 <img src="assets/image/img4.png" alt="Personal Portfolio" class="projects__img">
+                 <h3 class="projects__title">Personal Portfolio</h3>
+                 <p class="projects__description">
+                     A visually appealing portfolio website to showcase projects and achievements, built using HTML and CSS.
+                 </p>
+                 <a href="https://suryasaji.github.io/portfolio/" target="_blank" class="projects__button">View Portfolio</a>
+             </div>
+     
+             <!-- Business Website -->
+             <div class="projects__card">
+                 <img src="assets/image/img5.png" alt="Business Website" class="projects__img">
+                 <h3 class="projects__title">Business Website</h3>
+                 <p class="projects__description">
+                     A professional business website designed to attract and engage customers with a user-friendly interface.
+                 </p>
+                 <a href="https://suryasaji.github.io/BussinessWebsite/" target="_blank" class="projects__button">Visit Website</a>
+             </div>
+         </div>
+     </section>
+
+     <!-- certificates section -->
+     <section class="certifications-achievements section" id="certifications-achievements">
+      <h2 class="section__title">Certifications & Achievements</h2>
+   
+      <!-- Certifications Section -->
+      <div class="certifications__container container grid">
+         <div class="certifications__card">
+            <div class="certifications__img-wrapper">
+               <img src="assets/image/img6.png" alt="Java Certification" class="certifications__img">
+            </div>
+            <h3 class="certifications__title">Programming in Java (NPTEL, IIT Kharagpur)</h3>
+         </div>
+         <div class="certifications__card">
+            <div class="certifications__img-wrapper">
+               <img src="assets/image/img7.png" alt="Python Internship" class="certifications__img">
+            </div>
+            <h3 class="certifications__title">Python Internship (Soften Technologies, Ernakulam)</h3>
+         </div>
+         <div class="certifications__card">
+            <div class="certifications__img-wrapper">
+               <img src="assets/image/img8.jpg" alt="Hackathon 2nd Prize" class="certifications__img">
+            </div>
+            <h3 class="certifications__title">Hackathon 2nd Prize (HACK.DEV, St. Joseph’s College, Devagiri, Calicut)</h3>
+         </div>
+      </div>
+   
+      <script>
+         // JavaScript to handle image expansion on click
+         const imgWrappers = document.querySelectorAll('.certifications__img-wrapper');
+         imgWrappers.forEach(wrapper => {
+            wrapper.addEventListener('click', () => {
+               const img = wrapper.querySelector('.certifications__img');
+               const isExpanded = img.classList.contains('expanded');
+               if (isExpanded) {
+                  img.classList.remove('expanded');
+               } else {
+                  img.classList.add('expanded');
+               }
+            });
+         });
+      </script>
+   
+      <!-- Achievements Section -->
+      <div class="achievements__container container grid" style="margin-top: 40px;">
+         <div class="achievements__card">
+            <h3 class="achievements__title">Learning Circle 2nd Position (2023)</h3>
+            <p class="achievements__description">Web Development Learning Circle, GTech Mulearn</p>
+         </div>
+         <div class="achievements__card">
+            <h3 class="achievements__title">Participation in Smart India Hackathon (Prelims)</h3>
+         </div>
+         <div class="achievements__card">
+            <h3 class="achievements__title">Technical Fest Volunteer</h3>
+            <p class="achievements__description">Asthra, SJCET, Palai</p>
+         </div>
+         <div class="achievements__card">
+            <h3 class="achievements__title">Ideathon 1st Prize</h3>
+            <p class="achievements__description">IDEA IGNITE, Jyothi Engineering College, Cheruthuruthi</p>
+         </div>
+      </div>
+   </section>
+   
+     
+
+      <!--==================== CONTACT ====================-->
+      <!-- Contact Section -->
+<!-- Contact Form Section -->
+<!-- Contact Form Section -->
+<section class="contact section" id="contact">
+   <h2 class="section__title">Contact Me</h2>
+   <div class="contact__container container grid">
+      <!-- Contact Form -->
+      <form class="contact__form">
+         <div class="contact__inputs">
+            <input type="text" placeholder="Your Name" class="contact__input" required>
+      
+
+            <input type="email" placeholder="Your Email" class="contact__input" required>
+         </div>
+         <textarea placeholder="Your Message" class="contact__input" required></textarea>
+         <button type="submit" class="button">Send Message</button>
+      </form>
+   </div>
+</section>
+
+<!-- Social Links Section -->
+<section class="social-links section" id="social-links">
+   <h2 class="section__title">Connect with Me</h2>
+   <div class="social-links__container container">
+      <a href="mailto:suryasaji3032@gmail.com" class="social-link" title="Email">
+         <i class="fas fa-envelope"></i> Email
+      </a>
+      <a href="https://github.com/Suryasaji" target="_blank" class="social-link" title="GitHub">
+         <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/surya-saji-b75680234" target="_blank" class="social-link" title="LinkedIn">
+         <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+   </div>
+</section>
+
+
+
+
+
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <p class="footer__copy">&copy; 2025 Surya Saji. All rights reserved.</p>
+   </footer>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
